@@ -1,7 +1,11 @@
-import Navbar from "./navbar"
+import Navbar from "./navbar";
+import Corpo from "./corpo";
 
 export default function Layout() {
     return (
-        <Navbar />
+        <div>
+            <Navbar />
+            <Corpo />
+        </div>
     )
 }
