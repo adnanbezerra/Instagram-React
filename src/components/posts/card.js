@@ -2,18 +2,15 @@ import React from 'react';
 
 export default function Card(props) {
 
-    const[cordis, setCordis] = React.useState(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>);
+    const [cordis, setCordis] = React.useState(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>);
 
     let isClicked = false;
     function likeHeart() {
-
         if (isClicked) {
-
-            setCordis(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>) 
+            setCordis(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>)
             isClicked = false;
 
         } else {
-
             setCordis(<ion-icon name="heart" onClick={likeHeart}></ion-icon>);
             isClicked = true;
 
@@ -29,7 +26,7 @@ export default function Card(props) {
     return (
         <div>
             <div class="conteudo">
-                <img src={props.postUrl} onClick={likeImage}/>
+                <img src={props.postUrl} onClick={likeImage} alt="" />
             </div>
 
             <div class="fundo">
@@ -45,7 +42,7 @@ export default function Card(props) {
                 </div>
 
                 <div class="curtidas">
-                    <img src={props.likerUrl} />
+                    <img src={props.likerUrl} alt="" />
                     <div class="texto">
                         Curtido por <strong>{props.likerName}</strong> e <strong>outras {props.likesNumber} pessoas</strong>
                     </div>

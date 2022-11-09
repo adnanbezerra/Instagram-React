@@ -27,9 +27,9 @@ export default function Sugestoes() {
 
     return (
         <div className="sugestoes">
-            
+
             <Titulo />
-            {sugestoes.map( (sugestao) => <Sugestao suggestionImage={sugestao.suggestionImage} suggestionName={sugestao.suggestionName} suggestionReason={sugestao.suggestionReason} />)}
+            {sugestoes.map((sugestao) => <Sugestao suggestionImage={sugestao.suggestionImage} suggestionName={sugestao.suggestionName} suggestionReason={sugestao.suggestionReason} />)}
 
         </div>
     )

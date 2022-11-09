@@ -21,7 +21,7 @@ export default function Posts() {
     ]
     return (
         <div class="posts">
-            {posts.map((post) => <Post posterName={post.posterName} posterImage={post.posterImage} postImg={post.postImg} likerUrl={post.likerUrl} likerName={post.likerName} likesNumber={post.likesNumber}/>)}
+            {posts.map((post) => <Post posterName={post.posterName} posterImage={post.posterImage} postImg={post.postImg} likerUrl={post.likerUrl} likerName={post.likerName} likesNumber={post.likesNumber} />)}
         </div>
     )
 }
