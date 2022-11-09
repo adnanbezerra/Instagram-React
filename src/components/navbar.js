@@ -1,3 +1,5 @@
+import instaLogo from '../assets/images/logo.png';
+
 export default function Navbar() {
   return (
     <div class="navbar">
@@ -5,7 +7,7 @@ export default function Navbar() {
         <div class="logo">
           <ion-icon name="logo-instagram"></ion-icon>
           <div class="separador"></div>
-          <img src="./instagram/assets/img/logo.png" alt="" />
+          <img src={instaLogo} alt="" />
         </div>
 
         <div class="logo-mobile">
@@ -13,7 +15,7 @@ export default function Navbar() {
         </div>
 
         <div class="instagram-mobile">
-          <img src="./instagram/assets/img/logo.png" alt="" />
+          <img src={instaLogo} alt="" />
         </div>
 
         <div class="pesquisa">
