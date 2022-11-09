@@ -1,4 +1,4 @@
-# <p align = "center"> Projeto 7 - Instagram React </p>
+# <p align="center"> Projeto 7 - Instagram React </p>
 
 <p align="center">
    <img src="https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb935ee43-3d0e-4673-9b5c-d65bbc7e3827%2Finstagram_logo.png?table=block&id=e5c52fa1-0398-49bd-8b5a-66a5fd248dea&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=250&userId=&cache=v2" width="300px" />
