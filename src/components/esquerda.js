@@ -1,5 +1,5 @@
 import Stories from "./storiesBar/stories"
-import Posts from "./posts/posts"
+import Posts from "./posts/index"
 
 export default function Esquerda() {
     return (

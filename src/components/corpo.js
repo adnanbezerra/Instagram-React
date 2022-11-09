@@ -1,5 +1,5 @@
 import Esquerda from "./esquerda";
-import Sidebar from "./sidebar/sidebar";
+import Sidebar from "./sidebar/index";
 
 export default function Corpo() {
     return (
