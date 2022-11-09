@@ -2,16 +2,16 @@ import React from 'react';
 
 export default function Card(props) {
 
-    const [cordis, setCordis] = React.useState(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>);
+    const [heart, setHeart] = React.useState(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>);
 
     let isClicked = false;
     function likeHeart() {
         if (isClicked) {
-            setCordis(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>)
+            setHeart(<ion-icon name="heart-outline" onClick={likeHeart}></ion-icon>)
             isClicked = false;
 
         } else {
-            setCordis(<ion-icon name="heart" onClick={likeHeart}></ion-icon>);
+            setHeart(<ion-icon name="heart" onClick={likeHeart}></ion-icon>);
             isClicked = true;
 
         }
@@ -19,7 +19,7 @@ export default function Card(props) {
     }
 
     function likeImage() {
-        setCordis(<ion-icon name="heart" onClick={likeHeart}></ion-icon>);
+        setHeart(<ion-icon name="heart" onClick={likeHeart}></ion-icon>);
         isClicked = true;
     }
 
@@ -32,7 +32,7 @@ export default function Card(props) {
             <div class="fundo">
                 <div class="acoes">
                     <div>
-                        {cordis}
+                        {heart}
                         <ion-icon name="chatbubble-outline"></ion-icon>
                         <ion-icon name="paper-plane-outline"></ion-icon>
                     </div>
