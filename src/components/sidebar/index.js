@@ -1,10 +1,11 @@
 import Usuario from "./usuario"
 import Sugestoes from "./sugestoes"
+import catana from '../../assets/images/catanacomics.svg'
 
 export default function Sidebar() {
     return (
         <div className="sidebar">
-            <Usuario userImage="./instagram/assets/img/catanacomics.svg" userNickname="catanacomics" userName="Catana" />
+            <Usuario userImage={catana} userNickname="catanacomics" userName="Catana" />
             <Sugestoes />
             
             <div class="links">
